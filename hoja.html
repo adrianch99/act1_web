@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida - Leander West Furumo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <ul>
+            <li><a href="#formacion">Formación Académica</a></li>
+            <li><a href="#experiencia">Experiencia Laboral</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#referencias">Referencias</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sección de Encabezado -->
+    <header>
+        <h1>Leander West Furumo</h1>
+        <p>Dirección: Klevia 190, 1476 Rasta</p>
+        <p>Email: <a href="mailto:leanderfurumo@gmail.com">leanderfurumo@gmail.com</a></p>
+        <p>Teléfono: +47 47 87 90 07</p>
+        <p>Fecha de nacimiento: 30 de abril, 2000</p>
+    </header>
+
+    <!-- Formación Académica -->
+    <section id="formacion">
+        <h2>Formación Académica</h2>
+        <table>
+            <tr>
+                <th>Año</th>
+                <th>Estudios</th>
+                <th>Institución</th>
+            </tr>
+            <tr>
+                <td>2020 - Presente</td>
+                <td>Informatik: språksteknologi, Bachelor</td>
+                <td>Universitetet i Oslo</td>
+            </tr>
+            <tr>
+                <td>2018 - 2020</td>
+                <td>Especialización en lenguaje, ciencias sociales y economía</td>
+                <td>Lillestrøm Videregående Skole</td>
+            </tr>
+            <tr>
+                <td>2015 - 2018</td>
+                <td>Medios y comunicación</td>
+                <td>Mailand Videregående Skole</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Experiencia Laboral -->
+    <section id="experiencia">
+        <h2>Experiencia Laboral</h2>
+        <table>
+            <tr>
+                <th>Periodo</th>
+                <th>Puesto</th>
+                <th>Descripción</th>
+            </tr>
+            <tr>
+                <td>Jun - Ago 2018</td>
+                <td>Salvavidas</td>
+                <td>Skien Fritidspark - Supervisión de áreas de piscina, mantenimiento de instalaciones.</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Certificación de salvavidas por Skien Fritidspark</li>
+            <li>Licencia de conducir clase B</li>
+            <li>Noruego nativo, inglés fluido, cinco años de español</li>
+        </ul>
+    </section>
+
+    <!-- Referencias -->
+    <section id="referencias">
+        <h2>Referencias</h2>
+        <p>Disponible a solicitud.</p>
+        <p><a href="https://www.linkedin.com/in/leander-west-furumo" target="_blank">LinkedIn</a></p>
+        <p><a href="https://lien4.github.io/CV" target="_blank">GitHub - CV</a></p>
+    </section>
+
+    <!-- Formulario de Contacto -->
+    <footer id="contacto">
+        <h2>Contacto</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </footer>
+
+</body>
+</html>
